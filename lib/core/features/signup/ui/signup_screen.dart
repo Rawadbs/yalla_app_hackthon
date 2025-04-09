@@ -21,6 +21,7 @@ class SignupScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: ColorsManger.bgColor,
           elevation: 0,
+          automaticallyImplyLeading: false,
           actions: [
             Padding(
               padding: EdgeInsets.symmetric(

@@ -21,18 +21,7 @@ class SignInScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: ColorsManger.bgColor,
           elevation: 0,
-          leading: Padding(
-            padding: EdgeInsets.symmetric(
-              horizontal: 20.w,
-            ),
-            child: IconButton(
-              icon: const Icon(
-                Icons.arrow_back_ios,
-                color: ColorsManger.primaryColor,
-              ),
-              onPressed: () => Navigator.pop(context),
-            ),
-          ),
+          automaticallyImplyLeading: false,
           actions: [
             Padding(
               padding: EdgeInsets.symmetric(
